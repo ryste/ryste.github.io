@@ -1,0 +1,19 @@
+body { 
+	background-color: #000000;
+	max-width: 900px;
+}
+
+h1 {
+	font-family: Helvetica;
+	text-align: center;
+	font-size: 24px;
+}
+
+p {
+	font-family: Helvetica;
+	font-size: 14px;
+}
+#photo {
+	position: center;
+	max-width: 300px;
+}

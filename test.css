@@ -11,8 +11,11 @@ h1 {
 	font-size: 40px;
 }
 
-#photo {
-	border-radius: 100%;
+#photo  {
+	-webkit-border-radius: 50em;
+	-moz-border-radius: 50em;
+	border-radius: 50em;
+}
 
 }
 
@@ -20,5 +23,6 @@ h1 {
 	font-family: Helvetica;
 	font-size: 18px;
 	color: #325d72;
+	width: 350px;
 	text-align: center;
 }

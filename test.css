@@ -9,9 +9,10 @@ h1 {
 	font-size: 24px;
 }
 
-p {
+#paragraph {
 	font-family: Helvetica;
 	font-size: 14px;
+	text-align: center;
 }
 #photo {
 	position: center;

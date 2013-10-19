@@ -1,0 +1,77 @@
+body {
+	max-width: 1200px;
+}
+
+header {
+	height: 350px;
+	background-image: url(http://www.orthodoxmom.com/wp-content/uploads/2013/03/Stock__Coffee_Beans_by_unamanic.jpg);
+ 	background-size: 100%;
+ 	background-position: 50% 50%;
+	background-color: #000000;
+}
+
+h1 {
+	text-align: center;
+	font-family: sans-serif;
+	color: #CEBB99;
+	padding-top: 50px;
+}
+	
+#main-nav ul {
+	text-align: center;
+	background-color: #230B03;
+	margin-top: 200px;
+}
+
+#main-nav li {
+	display: inline-block;
+	padding-right: 15px;
+	
+}
+
+#main-nav a {
+	text-decoration: none;
+	font-size: 24px;
+	color: #CEBB99;
+	text-align: center;	
+}
+
+h3 {
+font-family: sans-serif;
+color: #230B03;
+text-align: center;
+}
+
+
+#left {
+	width: 300px;
+	display: inline-block;
+	padding: 20px;
+}
+
+#left p {
+	text-align: center;
+}
+
+#right {
+	width: 300px;
+	display: inline-block;
+	padding: 20px;
+}
+
+#right p {
+	text-align: center;
+}
+
+footer {
+	background-color: #230B03;
+}
+
+footer p {
+	font-family: serif;
+	text-align: center;
+	color: #CEBB99;
+	padding-top: 1em;
+	padding-bottom: 1em;
+
+}

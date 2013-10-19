@@ -1,6 +1,7 @@
 body { 
 	background-color: #ffffff;
 	max-width: 900px;
+	margin: auto;
 }
 
 h1 {
@@ -10,23 +11,24 @@ h1 {
 	font-size: 40px;
 }
 
+p {
+	font-family: Helvetica;
+	color: #325d72;
+}
 
 #photo  {
-	margin:0 auto;
+	display: block;
 	-webkit-border-radius: 50em;
 	-moz-border-radius: 50em;
 	border-radius: 50em;
+	margin: auto;
+	
 }
 
-
-}
 
 #content {
-	display: inline-block;
-	width: 600;
-	font-family: Helvetica;
-	font-size: 18px;
-	color: #325d72;
 	width: 350px;
-	text-align: center;
+	margin: auto;
 }
+
+

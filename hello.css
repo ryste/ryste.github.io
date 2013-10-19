@@ -1,34 +1,32 @@
 body { 
-	background-color: #ffffff;
-	max-width: 900px;
-	margin: auto;
+        background-color: #ffffff;
+        max-width: 900px;
+        margin: auto;
 }
 
 h1 {
-	font-family: Helvetica;
-	color: #325d72;
-	text-align: center;
-	font-size: 40px;
+        font-family: Helvetica;
+        color: #325d72;
+        text-align: center;
+        font-size: 40px;
 }
 
 p {
-	font-family: Helvetica;
-	color: #325d72;
+        font-family: Helvetica;
+        color: #325d72;
 }
 
 #photo  {
-	display: block;
-	-webkit-border-radius: 50em;
-	-moz-border-radius: 50em;
-	border-radius: 50em;
-	margin: auto;
-	
+        display: block;
+        -webkit-border-radius: 50em;
+        -moz-border-radius: 50em;
+        border-radius: 50em;
+        margin: auto;
+        
 }
 
 
 #content {
-	width: 400px;
-	margin: auto;
+        width: 400px;
+        margin: auto;
 }
-
-

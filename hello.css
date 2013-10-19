@@ -21,12 +21,12 @@ h1 {
 
 }
 
-#paragraph {
+#content {
+	display: inline-block;
+	width: 600;
 	font-family: Helvetica;
 	font-size: 18px;
 	color: #325d72;
 	width: 350px;
 	text-align: center;
-	padding-left: 100;
-	padding-right: 100;
 }

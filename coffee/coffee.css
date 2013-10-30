@@ -10,11 +10,10 @@ header {
 	background-color: #000000;
 }
 
-h1 {
+#logo {
+	position: relative;
 	text-align: center;
-	font-family: sans-serif;
-	color: #CEBB99;
-	padding-top: 50px;
+	padding-top: 60px;
 }
 	
 #main-nav ul {

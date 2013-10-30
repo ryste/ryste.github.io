@@ -1,5 +1,5 @@
 body {
-	max-width: 1200px;
+	width: 960px;
 }
 
 header {
@@ -12,14 +12,14 @@ header {
 
 #logo {
 	position: relative;
-	text-align: center;
 	padding-top: 60px;
+	padding-left: 410px
 }
 	
 #main-nav ul {
 	text-align: center;
 	background-color: #230B03;
-	margin-top: 200px;
+	margin-top: 20px;
 }
 
 #main-nav li {
@@ -37,7 +37,7 @@ header {
 
 h3 {
 font-family: sans-serif;
-color: #230B03;
+color: #4B1F17;
 text-align: center;
 }
 

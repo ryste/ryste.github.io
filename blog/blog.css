@@ -493,8 +493,29 @@ table {
 
 /* End Font-face */
 
-h1, h2, h3, h4, h5, h6, p, li {
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
 	font-family: league_gothicregular, sans-serif;
+}
+
+p, li {
+    font-family: Helvetica, sans-serif;
+    font-size: 0.75em;
+}
+
+h6.date {
+    font-size: 0.75em;
+    margin: 0;
+}
+
+h2.entry-title {
+    font-size: 1.75em;
+    margin-top: 0;
+    text-transform: uppercase;
 }
 
 header {
@@ -531,6 +552,39 @@ header {
 
 
 #left-nav {
-	display: inline-block;
-	width: 25%;
+	float: left;
+	width: 250px;
+    
+}
+
+#left-nav ul {
+margin-top: 1.5em;
+margin-right: 30px;
+list-style-type: none;
+font-weight: 600;
+}
+
+#left-nav li {
+    padding: 5px;
+}
+
+
+
+
+#main-content {
+    float: left;
+    width: 750px;
+}
+
+article.entry {
+    margin-top: 25px;
+    margin-bottom: 40px;
+
+
+}
+
+footer {
+    clear: both;
+    border-top: solid 1px black;
+    height: 3em;
 }

@@ -544,16 +544,20 @@ header {
 
 #main-nav li {
 	display: inline-block;
-    text-decoration: none;
     font-family: league_gothicregular;
     font-size: 16px;
     color: black;
+    padding-right: 1em;
 }
 
+#main-nav li a {
+    text-decoration: none;
+    color: black;
+}
 
 #left-nav {
 	float: left;
-	width: 250px;
+	width: 240px;
     
 }
 
@@ -567,9 +571,6 @@ font-weight: 600;
 #left-nav li {
     padding: 5px;
 }
-
-
-
 
 #main-content {
     float: left;

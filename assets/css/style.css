@@ -342,6 +342,12 @@ html[xmlns] .slides {display: block;}
 	line-height: 1.6;
 }
 
+.section .feature-description {
+	font-size: 1.3em;
+	font-weight: 300;
+	line-height: 1.6;
+}
+
 /* navbar */
 .navbar .btn-navbar {
 	background-color: #FFF;

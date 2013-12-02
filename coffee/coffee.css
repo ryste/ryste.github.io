@@ -1,11 +1,11 @@
 body {
-	width: 960px;
+	width: 1024px;
 	margin: 0 auto;
 }
 
 header {
 	height: 350px;
-	background-image: url(http://www.orthodoxmom.com/wp-content/uploads/2013/03/Stock__Coffee_Beans_by_unamanic.jpg);
+	background: url(beans.jpg);
  	background-size: 100%;
  	background-position: 50% 50%;
 	background-color: #000000;
@@ -49,7 +49,7 @@ text-align: center;
 }
 
 #left {
-	width: 300px;
+	width: 40%;
 	display: inline-block;
 	padding: 20px;
 	margin: 0 auto;
@@ -60,7 +60,7 @@ text-align: center;
 }
 
 #right {
-	width: 300px;
+	width: 40%;
 	display: inline-block;
 	padding: 20px;
 	margin: 0 auto;

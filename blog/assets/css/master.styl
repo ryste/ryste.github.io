@@ -1,0 +1,51 @@
+@import '_settings'
+
+normalize()
+base()
+
+// base styles on everything, for prototyping
+framework()
+
+
+
+header
+  group()
+  background: blue
+  size: 100% 8%
+
+  h1
+    display: inline-block
+    text-align: left
+    padding: 2% 2%
+    font-weight: 300
+  
+  nav
+    position: relative
+    float: right
+    padding: 3% 2%
+
+  ul
+    inline-list(spacing = 20px)
+
+
+.nav
+  color: white    
+
+
+#posts
+  reset-list()
+  width: 800px
+  margin: 50px auto
+
+  h2
+    margin-bottom: 40px 
+
+  li
+    margin: 40px 0
+    fs: 1.5em
+  a
+    padding: 10px
+    color: white
+    background: blue
+    transition: all .25s ease-out-quad
+    hover-fade(0.7)

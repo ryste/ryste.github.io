@@ -123,7 +123,7 @@ body {
   height: 100%;
   width: 100%;
   position: relative;
-  background: url(../img/bg-2.jpg) no-repeat center center fixed; 
+  background: url(../img/bg-wacom.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -171,7 +171,7 @@ i.service-icon {
   display: table;
   height: 400px;
   width: 100%;
-  background: url(../img/bg-mallorca.jpg) no-repeat center center fixed; 
+  background: url(../img/bg-camera.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -199,7 +199,7 @@ i.service-icon {
   display: table;
   height: 400px;
   width: 100%;
-  background: url(../img/bg-brighton.jpg) no-repeat center center fixed; 
+  background: url(../img/bg-wireframe.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -218,10 +218,18 @@ i.service-icon {
   margin: 10px;
 }
 
-/* Map */
+/* Contact Me */
 
-.map {
-  height: 500px;
+.contactme {
+  color: #ffffff;
+  display: table;
+  height: 400px;
+  width: 100%;
+  background: url(../img/bg-code.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /* Footer */
@@ -251,15 +259,11 @@ i.scroll:hover {
 @media (max-width: 768px) {
 	
   .header {
-	background: url(../img/bg-2.jpg) no-repeat center center scroll; 
+	background: url(../img/bg-wacom.jpg) no-repeat center center scroll; 
   }
 
   .callout {
-	background: url(../img/callout.jpg) no-repeat center center scroll; 
-  }
-
-  .map {
-	height: 75%;
+	background: url(../img/camera.jpg) no-repeat center center scroll; 
   }
 
 }

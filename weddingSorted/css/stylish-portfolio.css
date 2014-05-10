@@ -260,7 +260,7 @@ i.scroll:hover {
 @media (max-width: 768px) {
 	
   .header {
-	background: url(../img/wedding-bg.jpgv) no-repeat center center scroll; 
+	background: url(../img/wedding-bg.jpg) no-repeat center center scroll; 
   }
 
   .callout {

@@ -1,0 +1,11 @@
+header {
+	/*background-image: url(assets/header.png);
+*/
+background-color: #FFF;
+height: 400px;
+}
+
+
+.logo {
+	background-image: url(/assets/logo.png);
+}

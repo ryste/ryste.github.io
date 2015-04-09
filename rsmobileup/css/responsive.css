@@ -6,11 +6,15 @@
   
   /* CONTACT */
   
-      #primary {
+      #wrapper {
+        padding: 10%;
+      }
+
+      .primary {
         width: 50%;
         float: left;
       }
-      #secondary {
+      .secondary {
         width: 40%;
         float: right;
       }
@@ -18,7 +22,8 @@
       /* PORTFOLIO */
       
       #gallery li {
-        width: 28.3333%
+        width: 28.3333%;
+          ;
       }
       
       #gallery li:nth-child(4n) {
@@ -27,22 +32,27 @@
       
       /* ABOUT */
 
-    .profile-photo {
-        float: left;
-        margin: 0 5% 80px 0;
-      }
 
-    header {
-      background: #fff;
-    }
-
+    
     .full-image-bg {
-      background: url(../img/bg-large.jpg) no-repeat center center fixed;
+
     }
 
-    .top-texter {
-  padding: 50% 0;
+    /*.mall {
+    background: url(../img/bg-mall-large.jpg) no-repeat center top fixed;
+  }
+
+    .ny {
+      background: url(../img/bg-ny-large.jpg) no-repeat center center fixed;
     }
+
+    .river {
+      background: url(../img/bg-river-large.jpg) no-repeat center center fixed;
+    }
+
+    #aboutme {
+      text-align: left;
+    }*/
 
   }
 
@@ -52,9 +62,6 @@
 
 @media screen and (min-width: 660px) {
   
-      header {
-      background: #fff;
-    }
 
       nav {
         background: none;
@@ -71,7 +78,7 @@
         text-align: left;
         width: 45%;
       }
-      
+
       h1 {
         font-size: 2.5em;
       }
@@ -80,9 +87,5 @@
         font-size: 1.25em;
         margin-bottom: 20px;
       }
-
-    .top-texter {
-  padding: 25% 0;
-    }
 
     }
